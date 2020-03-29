@@ -1,0 +1,351 @@
+
+header{
+    display:block;
+    position: relative;
+    height: 2rem;
+    width:100%;
+    padding:14px;
+    font-size: 30px;
+    font-family: -apple-system, Arial;
+    color: white;
+    
+    cursor: pointer;
+    
+    text-align: center;
+    overflow-x: hidden;
+    background-color: rgb(66, 66, 66);
+    border:1px solid black;
+    border-radius: 4px;
+    
+}
+body{
+    height: 100%;
+    min-height: 100%;
+}
+section{
+    display: block;
+    position: relative;
+ 
+}
+
+.playMusic #one{
+display: block;
+position: fixed;
+height: 5rem;
+width: 5rem;
+cursor: pointer;
+left:30%;
+margin-top:4rem;
+transition-duration:1s;
+background-color: #fff;
+
+}
+
+.playMusic #two{
+
+    display: block;
+position: fixed;
+height: 5rem;
+width: 5rem;
+cursor: pointer;
+left:30%;
+margin-top:4rem;
+transition-duration: 1s;
+background-color: #fff;
+}
+
+.straightLine .line1{
+    
+    display: block;
+    position: fixed;
+  height: .2rem;
+  width:20rem;
+ background-color: grey;
+ margin-top: 2px;
+ left:45%;
+ top:11rem;
+}
+.straightLine .line2{
+    display: block;
+    position: fixed;
+    height: .2rem;
+    width:20rem;
+   background-color: grey;
+   margin-top: -11px;
+   left:45%;
+   top:11rem;
+}
+.straightLine .line3{
+    display: block;
+    position: fixed;
+    height: .2rem;
+    width:20rem;
+   background-color:grey;
+   margin-top: -5px;
+   left:45%;
+   top:11rem;
+}
+
+
+ .imagess .rain #rainn{
+    display: block;
+    position: relative;
+    height:10rem;
+    width:10rem;
+    top:19rem;
+    cursor: pointer;
+    margin:3rem;
+    left:5rem;
+    transition-duration: .5s;
+}
+.imagess .rain #rainn:hover{
+    height: 11rem;
+    width: 11rem;
+}
+
+.imagess .bird #birdd{
+    display: block;
+    position: relative;
+    height:10rem;
+    width:10rem;
+    top:5rem;
+    cursor: pointer;
+    margin:3rem;
+    left:35rem;
+    
+    transition-duration: .5s;
+}
+.imagess .bird #birdd:hover{
+    height: 11rem;
+    width: 11rem;
+}
+
+
+.imagess .grass #grass{
+    display: block;
+    position: relative;
+    height:10rem;
+    width:10rem;
+    top:19rem;
+    cursor: pointer;
+    margin:3rem;
+    left:5rem;
+    transition-duration: .5s;
+}
+.imagess .grass #grass:hover{
+    height: 11rem;
+    width: 11rem;
+}
+.imagess .storm #storm{
+    display: block;
+    position: relative;
+    height:10rem;
+    width:10rem;
+    top:-20rem;
+    cursor: pointer;
+    margin:3rem;
+    left:60rem;
+    transition-duration: .5s;
+}
+.imagess .storm #storm:hover{
+    height: 11rem;
+    width: 11rem;
+}
+
+
+
+.imagess .wave #wave{
+    display: block;
+    position: relative;
+    height:10rem;
+    width:10rem;
+    top:-9rem;
+    cursor: pointer;
+    margin:3rem;
+    left:36rem;
+    transition-duration: .5s;
+}
+.imagess .wave #wave:hover{
+    height: 11rem;
+    width: 11rem;
+}
+
+
+
+.imagess .wind #wind{
+    display: block;
+    position: relative;
+    height:10rem;
+    width:10rem;
+    top:-20rem;
+    cursor: pointer;
+    margin:3rem;
+    left:60rem;
+    transition-duration: .5s;
+}
+.imagess .wind #wind:hover{
+    height: 11rem;
+    width: 11rem;
+}
+
+
+
+
+footer{
+    display: block;
+    position: fixed;
+   
+    height: 7rem;
+    background-color: rgb(44, 43, 43);
+    width:100%;
+    bottom: 0px;
+    border-radius: 4px;
+}
+.socialMedia img{
+    top:.3rem;
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+    margin:5px;
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+.contentstuff{
+    position: relative;
+    text-align: center;
+    color: white;
+    top:-3.5rem;
+    font-family: -apple-system;
+    font-size: 14px;
+}
+
+.imagess .fire #Fire{
+    display: block;
+    position: relative;
+    height:10rem;
+    width:10rem;
+    top:-12rem;
+    cursor: pointer;
+    margin:3rem;
+    left:5rem;
+    transition-duration: .5s;
+
+}
+
+.imagess .fire #Fire:hover{
+    height: 11rem;
+    width: 11rem;
+}
+
+
+
+.imagess .cofeeShop #cofeeshop{
+    display: block;
+    position: relative;
+    height:10rem;
+    width:10rem;
+    top:-25rem;
+    cursor: pointer;
+    margin:3rem;
+    left:35rem;
+    transition-duration: .5s;
+}
+
+.imagess .cofeeShop #cofeeshop:hover{
+    height: 11rem;
+    width: 11rem;
+}
+
+.imagess .jungle #jungle
+{
+    display: block;
+    position: relative;
+    height:10rem;
+    width:10rem;
+    top:-38rem;
+    cursor: pointer;
+    margin:3rem;
+    left:60rem;
+    transition-duration: .5s;
+}
+
+.imagess .jungle #jungle:hover{
+    height: 11rem;
+    width: 11rem;
+}
+
+
+.imagess .Tibet #tibet{
+    display: block;
+    position: relative;
+    height:10rem;
+    width:10rem;
+    top:-30rem;
+    cursor: pointer;
+    margin:3rem;
+    left:5rem;
+    transition-duration: .5s;
+}
+
+.imagess .Tibet #tibet:hover{
+    height: 11rem;
+    width: 11rem;
+}
+
+@media (max-width:1025px)
+{
+    html{
+       display: flex;
+       overflow-x: hidden;
+      
+    }
+    header{
+        width:1024px;
+    }
+    .imagess .storm #storm{
+        top:25rem;
+        left:4rem;
+    }
+    .imagess .wind #wind{
+
+        top:-2rem;
+        left:37rem;
+
+    }
+    .imagess .wave #wave{
+        left:37rem;
+    }
+    .imagess .Tibet #tibet{
+        top:-10rem
+    }
+    .imagess .fire #Fire{
+      top:5rem;
+    }
+    .imagess .cofeeShop #cofeeshop{
+     top: -7rem;
+     left:37rem;
+    }
+
+    .imagess .jungle #jungle{
+        left:37rem;
+        top: 2rem;
+    }
+  
+    .imagess .rain #rainn{
+        top:25rem;
+    }
+    .imagess .bird #birdd{
+        top:11rem;
+        left: 37rem;
+    }
+}
+.author{
+    display: block;
+    position: absolute;
+    color:dodgerblue;
+    font-size: 30px;
+    font-family: -apple-system;
+    top:2.5rem;
+    left: 5rem;
+}
